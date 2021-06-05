@@ -1,0 +1,53 @@
+<html>
+    <head><title>Student Marks System</title></head>
+
+<body>
+    <div style="padding-left:35%;">
+        <form action="tmarks.php" method="POST">
+            <table><caption><strong>Teacher Log in</strong></caption>
+                <tr>
+                    <td>Teacher ID Number</td>
+                    <td><input type="number" name="teacherId"   required></td>
+                </tr>
+
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="teacherPass" required></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit"  value="Login!" ></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+
+
+    <div style="padding-left:35%;">
+    <form action="smarks.php" method="POST">
+        <table><caption><strong>Student Log in</strong></caption>
+            <tr>
+                <td>Student ID Number</td>
+                <td><input type="number" name="studentId" required></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="studentPass" required></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit"  value="Login!" ></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+
+</body>
+
+
+</html>
